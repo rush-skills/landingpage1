@@ -16,6 +16,7 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+/*USE THIS noround class to remove rounded corners, mostly in buttons*/
 .noround {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
@@ -74,4 +75,111 @@ h6 {
     font-size: 40px;
     font-weight: 100;
     text-align: center;
+}
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    /* to remove center align remove this line */
+    text-align: center;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/*BUTTON CUSTOMIZATIONS*/
+/* color - text color
+    background-color - color of button (inherit- to use the background color itself)
+    border-color - color of border */
+    /*Possible classes of buttons provided by bootstrap -  btn-primary: blue
+                                                btn-default: white
+                                                btn-success: green
+                                                btn-warning: yellow
+                                                btn-danger: red; */
+#button1{
+    /*color: white;
+    background-color: red;
+    border-color: green;*/
+}
+#button2{
+    /*color: white;
+    background-color: green;
+    border-color: red;*/
+}
+#button3{
+   /* color: black;
+    background-color: inherit;
+    border-color: green;*/
+}
+#button4{
+    /*color: black;
+    background-color: inherit;
+    border-color: blue;*/
+}
+
+/*TO CUSTOMIZE THE INPUT FIELD OF SUBSCRIBE BOX*/
+.subscribe-box input[type=email]{
+    background-color: white;
+}
+
+/*TO CUSTOMIZE THE RADIO BUTTONS*/
+/*Common to both buttons and text*/
+.radio-inline {
+
+}
+/*1st or 2nd button(only the circle portion)*/
+#inlineRadio1{
+    
+}
+#inlineRadio2{
+    
+}
+
+/*To customize all the content*/
+.content-wrapper{
+
+}
+
+/*To customize the contact link in navbar*/
+#navbar-contact{
+/*
+    font-weight: 100;
+    font-size: 20px;
+    color: red;
+*/
+}
+
+/*Customize the links in the footer*/
+footer a{
+    /*color: black;*/
+}
+
+/*Customize the modal*/
+#about .modal-content{
+    /*background-color: red;*/
+}
+
+/*Customize the form*/
+#about form{
+    /*background-color: red;*/
+}
+
+/*Customize the form elments (all)*/
+#about form input,#about form textarea{
+    /*background-color: red;*/
+}
+
+/*Customize the form Name field*/
+#about form #name{
+    /*background-color: red;*/
+}
+
+/*Customize the form Email field*/
+#about form #email{
+    /*background-color: red;*/
+}
+
+/*Customize the form Message field*/
+#about form #message{
+    /*background-color: red;*/
 }
