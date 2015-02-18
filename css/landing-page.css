@@ -183,3 +183,8 @@ footer a{
 #about form #message{
     /*background-color: red;*/
 }
+.top-background{
+    background-image: url(http://blogocska.org/files/2010/01/City-Wallpaper-1080p-37.jpg);
+    /*Added color: white to make text appear on the image, change it as per your requirement or remove it*/
+    color: white; 
+}
